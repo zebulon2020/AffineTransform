@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1601520657 source:f:\mycppproject\affinetransform\main.cpp
+	<iostream>
+	<string.h>
+	"file_op.h"
+
+1601519766 source:f:\mycppproject\affinetransform\file_op.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+
+1601519799 f:\mycppproject\affinetransform\file_op.h
+	<iostream>
+
