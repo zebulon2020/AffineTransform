@@ -75,6 +75,7 @@ int main()
             string cipher_text;  // 密文
             char* file_name = "plain.txt";
 
+            cout<<"将对工程目录下的plain.txt进行加密..."<<endl;
             file_content = read_file(file_name);
             //cout<<file_content<<endl;
             cipher_text = Cryption(file_content, a, b);
@@ -88,6 +89,7 @@ int main()
             string file_content;  // 读取的密文的内容
             string plain_text;    // 明文
             char* file_name = "cipher.txt";
+            cout<<"将对工程目录下的cipher.txt进行解密..."<<endl;
             file_content = read_file(file_name);
             plain_text = Decryption(file_content, a, b);
             write_file(plain_text);
